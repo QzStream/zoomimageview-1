@@ -23,12 +23,11 @@ OnScaleGestureListener ,OnTouchListener{
 	private float mInitScale;//初始化时缩放的值
 	private float mMidScale;//双击放大的值
 	private float mMaxScale;//最大scale
-
+	
 	//移动缩放
 	private Matrix mScaleMatrix;
 	//捕获用户多点触控时缩放比例
 	private ScaleGestureDetector mScaleGestureDetector;
-
 	//......自由移动
 	/**
 	 * 记录上一次多点触控的数量
